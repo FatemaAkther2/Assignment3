@@ -21,10 +21,9 @@
           extend: {
             colors: {
               clifford: '#da373d',
-              drisso: 'red',
             },
-            fonts:{
-              manrope: '["Manrope", sans-serif]',
+            fontFamily: {
+              manrope: ['Manrope', 'sans-serif'],
             },
           },
         },
@@ -41,91 +40,108 @@
 <!-- By constant self-discipline and self-control, you can develop greatness of character.” -->
 
 
-<body class="bg-gradient-to-b from-gray-100 to-gray-50">
+<body  class="font-manrope">
+  <div class="bg-gradient-to-b from-gray-100 to-gray-50">
+    <main class="max-w-screen-xl mx-auto px-6 py-8 lg:px-15">
   
- <main class="max-w-screen-xl mx-auto px-8 py-10 lg:px-15">
+      <header>
   
-    <header>
-
-      <!-- navbar -->
-       <div class="navbar ">
-        <!-- part1 -->
-        <div class="flex">
-          <!-- arrow  -->
-           <div class="py-2 px-3 bg-lime-300 rounded-full -rotate-45">
-            <i class="fa-solid fa-arrow-right"></i>
-           </div>
-
-           <h1 class="text-3xl font-bold px-1 mr-20">Rinterio</h1>
-
-        </div>
-       
-          <!-- links -->
-           <!-- class="hidden lg:block" -->
-          <div class="hidden lg:block">
-            <ul class="flex text-2xl gap-10 text-gray-500 ">
-                <li class="font-bold "><a>Home</a></li>
-                <li><a >Services</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Blogs</a></li>
-                <li><a>Contact Us</a></li>
-            </ul>
-        </div>
-        
-        
-        
-        <div>
-       
-          <div class="hidden lg:block ml-20 mr-5 border border-black-500 py-1 px-2 bg-white rounded-full"><i class="fa-solid fa-magnifying-glass text-gray-500"></i></div>
-
-          <div class="hidden lg:block mr-5 border border-black-500 py-1 px-2 bg-white rounded-full"><i class="fa-solid fa-cart-shopping text-gray-500"></i></div>
-
-          <div class="block lg:hidden mr-5 border ml-16 border-black-500 py-2 px-4 bg-white rounded-full">
-            <i class="fa-solid fa-bars text-gray-500"></i>
+        <!-- navbar -->
+         <div class="navbar ">
+          <!-- part1 -->
+          <div class="flex">
+            <!-- arrow  -->
+             <div class="py-2 px-3 bg-lime-300 rounded-full -rotate-45">
+              <i class="fa-solid fa-arrow-right"></i>
+             </div>
+  
+             <h1 class="text-3xl font-bold px-1 mr-20">Rinterio</h1>
+  
           </div>
-
-
-          <div class="hidden md:flex bg-lime-300 px-4 py-2 rounded-3xl text-black font-bold gap-2">
-            <button>Book Consult</button>
-            <div class="py-1 px-2 bg-black rounded-full">
-                <i class="fa-solid fa-arrow-right text-white -rotate-45"></i>
+         
+            <!-- links -->
+             <!-- class="hidden lg:block" -->
+            <div class="hidden lg:block">
+              <ul class="flex text-xl gap-10 text-gray-500 ">
+                  <li class="font-bold ml-5"><a>Home</a></li>
+                  <li><a >Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+              </ul>
+          </div>
+          
+          
+          
+          <div>
+         
+            <div class="hidden lg:block ml-24 mr-5 border border-black-500 py-1 px-2 bg-white rounded-full"><i class="fa-solid fa-magnifying-glass text-gray-500"></i></div>
+  
+            <div class="hidden lg:block mr-5 border border-black-500 py-1 px-2 bg-white rounded-full"><i class="fa-solid fa-cart-shopping text-gray-500"></i></div>
+  
+            <div class="block lg:hidden mr-5 border ml-16 border-black-500 py-2 px-4 bg-white rounded-full">
+              <i class="fa-solid fa-bars text-gray-500"></i>
             </div>
-        </div>
-        </div>
-       </div>
-
-
-       <!-- banner section -->
-        <section>
-          <div class="flex justify-center mb-10">
-            <img src="images/banner.png" alt="">
+  
+  
+            <div class="hidden md:flex bg-lime-300 px-4 py-2 rounded-3xl text-black font-bold gap-2">
+              <button>Book Consult</button>
+              <div class="py-1 px-2 bg-black rounded-full">
+                  <i class="fa-solid fa-arrow-right text-white -rotate-45"></i>
+              </div>
           </div>
-          <div class="flex justify-center mb-6">
-            <h6 class="text-5xl font-bold text-black">A barn house of this design has a
-              <br>
-              <span class="flex justify-center">striking appearance</span></h6>
           </div>
-          <div class="flex justify-center mb-5">
-            <h1>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>
-              <span class="flex justify-center">accents, and large windows that flood the space with natural light.</span></h1>
-          </div>
-
-          <div class="flex justify-center">
-            <div class="border border-lime-400 bg-gradient-to-r from-lime-300 to-lime-200 px-4 py-2 rounded-3xl text-black font-bold flex gap-2">
-              <button>View Details</button>
-              <div class="py-1 px-2 bg-lime-400 rounded-full"><i class="fa-solid fa-arrow-right text-black -rotate-45"></i></div>
+         </div>
+  
+  
+         <!-- banner section -->
+          <section>
+            <div class="flex justify-center mb-10">
+              <img src="images/banner.png" alt="">
             </div>
+            <div class="hidden lg:flex justify-center mb-6">
+              <h6 class="text-5xl lg:text-6xl font-bold text-black">
+                  A barn house of this design has a
+                  <br class="hidden lg:block">
+                  <span class="lg:flex lg:justify-center">striking appearance</span>
+              </h6>
           </div>
-        </section>
-
-    </header>
-   
-
-  </main>
-
+  
+          <div class="flex justify-center mb-6 md:flex lg:hidden xl:hidden">
+            <h6 class="text-4xl md:text-4xl lg:text-5xl font-bold text-black">
+                <span class="block md:inline">A barn house of this</span>
+                <br class="md:block hidden lg:hidden">
+                <span class="block md:inline">design has a striking</span>
+                <br class="md:block hidden lg:hidden">
+                <span class="block md:inline flex justify-center">appearance</span>
+            </h6>
+        </div>
+            
+            <div class="flex justify-center mb-5">
+              <h1>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br class="hidden lg:block">
+                <span class="lg:flex lg:justify-center">accents, and large windows that flood the space with natural light.</span></h1>
+                
+            </div>
+  
+            <div class="flex justify-center md:w-full">
+              <div class="flex justify-center border border-lime-400 bg-gradient-to-r from-lime-300 to-lime-200 px-4 py-2 rounded-3xl text-black font-bold flex gap-2 w-full md:w-auto">
+                  <button>View Details</button>
+                  <div class="py-1 px-2 bg-lime-400 rounded-full"><i class="fa-solid fa-arrow-right text-black -rotate-45"></i></div>
+              </div>
+          </div>
+          
+          </section>
+  
+      </header>
+     
+  
+    </main>
+  
+  </div>
+ 
   <!-- second section -->
 
-  <section class="bg-gray-100">
+  <section class="bg-gray-200">
     <div class=" max-w-screen-xl mx-auto px-5 py-10 lg:px-15">
       <div class="hidden md:block">
         <img src="images/Vector.png" alt="">
@@ -133,24 +149,26 @@
       <div class="grid lg:grid-cols-2 gap-10 lg:px-8 mt-5">
         <!-- Left Section -->
         <div>
-          <div class="flex mb-5">
-            <div class="bg-white px-3 py-1 rounded-3xl text-gray-600 font-bold flex gap-2">
-              <div class="py-1"><i class="fa-solid fa-arrow-right"></i></div>
-              <p class="py-1 px-1">About Us</p>
+          <div class="flex justify-center lg:justify-start mb-5">
+            <div class="bg-white px-3 py-1 rounded-3xl text-gray-600 font-bold flex gap-2 items-center">
+                <div class="py-1"><i class="fa-solid fa-arrow-right"></i></div>
+                <p class="py-1 px-1">About Us</p>
             </div>
-          </div>
-      
-          <div class="mb-5">
-            <h1 class="text-3xl font-bold text-black">We design thoughtful,
-              <br>
-              liveable spaces
+        </div>
+        
+        <div class="flex justify-center lg:justify-start mb-5">
+            <h1 class="text-3xl font-bold text-black text-center lg:text-start">
+                We design thoughtful,
+                <br>
+                liveable spaces
             </h1>
-          </div>
-      
-          <div class="mb-5">
-            <p>The barn house captivates with its blend of rustic charm and <br>
-              modern sophistication, featuring weathered wood, sleek metal accents.</p>
-          </div>
+        </div>
+        
+        <div class="flex justify-center lg:justify-start mb-5">
+            <p class="text-center lg:text-start">The barn house captivates with its blend of rustic charm and <br class="hidden lg:block">
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        
       
           <!-- Card 1 -->
           <div class="flex mb-4 bg-white px-4 py-5 rounded-2xl">
@@ -196,15 +214,15 @@
         </h1>
       
         <!-- Description Section -->
-        <div class="flex justify-center mb-5">
+        <div class="flex justify-center mb-5 text-center">
           <h1>The barn house captivates with its blend of rustic charm and modern sophistication,
-            <br>
-            <span class="flex justify-center">featuring weathered wood, sleek metal accents.</span></h1>
+            <br class="hidden lg:block">
+            <span class="lg:flex lg:justify-center">featuring weathered wood, sleek metal accents.</span></h1>
         </div>
       
         <!-- Grid Section -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:mb-16">
-          <div class="bg-fuchsia-500 px-8 py-5 rounded-2xl">
+          <div class="bg-[#E7C1D3] px-8 py-5 rounded-2xl">
             <img src="images/concept.png" alt="">
             <p class="text-2xl font-bold mt-2 mb-1">Concept</p>
             <p>The barn house captivates <br>
@@ -213,7 +231,7 @@
             </p>
           </div>
       
-          <div class="bg-yellow-500 px-8 py-5 rounded-2xl">
+          <div class="bg-[#EFDA6E] px-8 py-5 rounded-2xl">
             <img src="images/flow-chart.png" alt="">
             <p class="text-2xl font-bold mt-2 mb-1">Design Process</p>
             <p>The barn house captivates <br>
@@ -222,7 +240,7 @@
             </p>
           </div>
       
-          <div class="bg-green-500 px-8 py-5 rounded-2xl">
+          <div class="bg-[#A4DAC3] px-8 py-5 rounded-2xl">
             <img src="images/vision.png" alt="">
             <p class="text-2xl font-bold mt-2 mb-1">Supervision</p>
             <p>The barn house captivates <br>
@@ -231,7 +249,7 @@
             </p>
           </div>
       
-          <div class="bg-cyan-500 px-8 py-5 rounded-2xl">
+          <div class="bg-[#77AAEA] px-8 py-5 rounded-2xl">
             <img src="images/budget-planning.png" alt="">
             <p class="text-2xl font-bold mt-2 mb-1">Supervision</p>
             <p>The barn house captivates <br>
@@ -248,18 +266,18 @@
 
 <!-- Challenge section -->
 <section class="max-w-screen-xl mx-auto px-2 py-3 lg:px-15">
-  <div class="px-8">
+  <div class="lg:px-8 px-3">
     <!-- Title and Heading -->
     <div class="flex justify-center mt-24">
-      <div class="bg-lime-100 px-3 py-1 rounded-3xl text-gray-600 font-bold flex gap-2">
+      <div class="bg-[rgba(171,239,95,0.2)] px-3 py-1 rounded-3xl text-gray-600 font-bold flex gap-2">
         <div class="py-1"><i class="fa-solid fa-arrow-right"></i></div>
         <p class="py-1 px-1">Explore our Latest works</p>
       </div>
     </div>
     <h1 class="flex justify-center text-4xl font-bold mt-5 mb-5">Our Latest Portfolio</h1>
-    <div class="flex justify-center mb-5">
-      <h1>The barn house captivates with its blend of rustic charm and modern sophistication,<br>
-        <span class="flex justify-center">featuring weathered wood, sleek metal accents.</span>
+    <div class="flex justify-center mb-5 text-center">
+      <h1>The barn house captivates with its blend of rustic charm and modern sophistication,<br class="hidden lg:block">
+        <span class="lg:flex lg:justify-center">featuring weathered wood, sleek metal accents.</span>
       </h1>
     </div>
 
@@ -398,7 +416,7 @@
 
 
 <!-- Client Review Section -->
-<section class="bg-gray-100 py-16">
+<section class="bg-gray-200 py-16">
   <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-12">
       <h2 class="text-4xl font-bold text-gray-800">What Our Clients Say</h2>
@@ -407,7 +425,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Review 1 -->
-      <div class="bg-white p-6 rounded-lg shadow-lg">
+      <div class="bg-white p-6 rounded-3xl shadow-lg">
         <div class="flex items-center mb-4">
           <img src="images/client1.png" alt="Client 1" class="w-16 h-16 rounded-full object-cover border-2 border-gray-300">
           <div class="ml-4">
@@ -419,7 +437,7 @@
       </div>
 
       <!-- Review 2 -->
-      <div class="bg-white p-6 rounded-lg shadow-lg">
+      <div class="bg-white p-6 rounded-3xl shadow-lg">
         <div class="flex items-center mb-4">
           <img src="images/client2.png" alt="Client 2" class="w-16 h-16 rounded-full object-cover border-2 border-gray-300">
           <div class="ml-4">
@@ -431,7 +449,7 @@
       </div>
 
       <!-- Review 3 -->
-      <div class="bg-white p-6 rounded-lg shadow-lg">
+      <div class="bg-white p-6 rounded-3xl shadow-lg">
         <div class="flex items-center mb-4">
           <img src="images/client3.png" alt="Client 3" class="w-16 h-16 rounded-full object-cover border-2 border-gray-300">
           <div class="ml-4">
@@ -451,38 +469,38 @@
   <section class="py-10 lg:py-24 px-10 bg-[url('./images/bg.jpg')] bg-scroll bg-cover bg-no-repeat bg-center">
 
     <div class="text-center mt-10">
-        <button class="btn bg-[#ABEF5F] mb-5 font-bold rounded-3xl"><span><i class="fa-solid fa-arrow-right"></i></span> Lets Connect </button>
+        <button class="btn px-10 bg-[rgba(171,239,95,0.3)] mb-5 font-bold rounded-3xl"><span><i class="fa-solid fa-arrow-right"></i></span> Let's Connect </button>
         <h1 class="text-4xl font-extrabold mb-5 text-[#212121]">Lets Discuss Next Project</h1>
         <p class="text-[#494949] mb-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered <br>wood, sleek metal accents.</p>
     </div>
 
     <form action="" class="text-center">
-        <div>
-            <input type="text" name="" id="" placeholder="First name*" class="p-4 mt-4 w-[95%] lg:w-1/4 md:w-3/4 rounded-3xl">
-            <input type="text" name="" id="" placeholder="Last name*" class="p-4 mt-4 w-[95%] lg:w-1/4 md:w-3/4 rounded-3xl">
-        </div>
-        <div>
-            <input type="text" name="" id="" placeholder="Email*" class="p-4 mt-4 w-[95%] lg:w-1/4 md:w-3/4 rounded-3xl">
-            <input type="text" name="" id="" placeholder="Phone*" class="p-4 mt-4 w-[95%] lg:w-1/4 md:w-3/4 rounded-3xl">
-        </div>
-        <div>
-            <textarea name="" id="" placeholder="Your message" class="w-[95%] md:w-[50%] h-52 rounded-3xl resize-none p-4 text-2xl mt-4"></textarea>
-        </div>
-        <div>
-            <button class="w-[95%] md:w-[50%] p-4 mt-4 bg-[#ABEF5F] rounded-3xl font-bold">Send Mail <span class="ml-2"><i class="fa-solid fa-arrow-right -rotate-45 text-[#FFFFFF] bg-black p-2 rounded-full"></i></span></button>
-        </div>
-    </form>
+      <div class="lg:flex lg:justify-center lg:gap-6">
+          <input type="text" name="" id="" placeholder="First name*" class="p-4 mt-4 w-[95%] lg:w-[34%] md:w-3/4 rounded-3xl">
+          <input type="text" name="" id="" placeholder="Last name*" class="p-4 mt-4 w-[95%] lg:w-[34%] md:w-3/4 rounded-3xl">
+      </div>
+      <div class="lg:flex lg:justify-center lg:gap-6">
+        <input type="text" name="" id="" placeholder="Email Number*" class="p-4 mt-4 w-[95%] lg:w-[34%] md:w-3/4 rounded-3xl">
+        <input type="text" name="" id="" placeholder="Phone Number*" class="p-4 mt-4 w-[95%] lg:w-[34%] md:w-3/4 rounded-3xl">
+    </div>
+      <div class="mt-4">
+          <textarea name="" id="" placeholder="Your message" class="w-[95%] md:w-[50%] lg:w-[70%] h-52 rounded-3xl resize-none p-4 text-2xl"></textarea>
+      </div>
+      <div class="mt-2">
+          <button class="w-[95%] md:w-[50%] lg:w-[70%] p-4 mt-6 bg-[#ABEF5F] rounded-3xl font-bold text-2xl">Send Mail <span class="ml-2"><i class="fa-solid fa-arrow-right -rotate-45 text-[#FFFFFF] bg-black p-2 rounded-full"></i></span></button>
+      </div>
+  </form>
 </section>
    
 <footer>
-  <section class="text-center py-20 bg-black">
+  <section class="text-center py-20 bg-[#1C1C1C]">
       <div class="mb-4">
           <a class="btn btn-ghost text-3xl font-[manrope] font-extrabold text-[#E9E9E9]">
             <span><i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-2 rounded-full text-[black]"></i></span>Rinterio
           </a>
       </div>
       <div>
-          <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication,<br class="hidden lg:block"> <span class="lg:flex lg:justify-center"> featuring weathered wood, sleek metal accents.</span> </p>
       </div>
       <ul class="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-20 text-white mt-5">
           <li><a href="">Home</a></li>
